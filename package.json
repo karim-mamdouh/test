@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "explorer": "source-map-explorer dist/**/*.js"
   },
   "private": true,
   "dependencies": {
@@ -18,7 +19,9 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "cic-package-test": "^0.0.2",
     "rxjs": "~7.5.0",
+    "source-map-explorer": "^2.5.3",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },

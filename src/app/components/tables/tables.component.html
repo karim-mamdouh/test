@@ -1,0 +1,132 @@
+<p-tabView>
+  <p-tabPanel header="Infrastruction">
+    <cic-data-table
+      [data]="infraStructureData"
+      [tableColumns]="infrastructureHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table>
+  </p-tabPanel>
+  <p-tabPanel header="Usage Type">
+    <cic-data-table
+      [data]="usageData"
+      [tableColumns]="usageHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table>
+  </p-tabPanel>
+  <p-tabPanel header="Location"
+    ><cic-data-table
+      [data]="locationData"
+      [tableColumns]="locationHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Compound Features"
+    ><cic-data-table
+      [data]="compoundData"
+      [tableColumns]="compoundHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Views"
+    ><cic-data-table
+      [data]="viewData"
+      [tableColumns]="viewHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Class"
+    ><cic-data-table
+      [data]="classData"
+      [tableColumns]="classHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Payment Plan"
+    ><cic-data-table
+      [data]="paymentData"
+      [tableColumns]="paymentHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Floor Category"
+    ><cic-data-table
+      [data]="floorData"
+      [tableColumns]="floorHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Unit Status"
+    ><cic-data-table
+      [data]="unitData"
+      [tableColumns]="unitHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Launch Type"
+    ><cic-data-table
+      [data]="launchData"
+      [tableColumns]="launchHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Finishing Status"
+    ><cic-data-table
+      [data]="finishData"
+      [tableColumns]="finishHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Category"
+    ><cic-data-table
+      [data]="categoryData"
+      [tableColumns]="categoryHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+  <p-tabPanel header="Language"
+    ><cic-data-table
+      [data]="languageData"
+      [tableColumns]="languageHeaders"
+      captionMessage="Table Caption"
+      summaryMessage="Table Summary"
+      (stateChange)="clicked($event)"
+    >
+    </cic-data-table
+  ></p-tabPanel>
+</p-tabView>

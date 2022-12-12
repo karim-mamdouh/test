@@ -1,0 +1,63 @@
+<form [formGroup]="form" (submit)="onSubmit()">
+  <div class="input-group">
+    <cic-input
+      controlName="firstName"
+      label="First Name"
+      [floatLabel]="true"
+      [controlErrors]="errors"
+      styleClass="input-general"
+      class="input-general"
+    ></cic-input>
+    <cic-input
+      label="Last Name"
+      [floatLabel]="true"
+      controlName="lastName"
+      class="input-general"
+      [controlErrors]="errors"
+      styleClass="input-general"
+    ></cic-input>
+    <cic-input
+      label="Email"
+      [floatLabel]="true"
+      controlName="email"
+      class="input-general"
+      [controlErrors]="errors"
+      styleClass="input-general input-general"
+      class="input-general"
+    ></cic-input>
+    <cic-dropdown
+      [data]="genders"
+      controlName="gender"
+      label="Gender"
+      [floatLabel]="true"
+      [controlErrors]="errors"
+      styleClass="dropdown-general input-general"
+      class="input-general"
+    ></cic-dropdown>
+    <cic-calendar
+      label="Date of Birth"
+      [floatLabel]="true"
+      controlName="dob"
+      [controlErrors]="errors"
+      styleClass="input-general"
+      class="input-general"
+    ></cic-calendar>
+  </div>
+  <cic-input
+    controlName="address"
+    styleClass="input-general"
+    label="Address"
+    [floatLabel]="true"
+    type="textarea"
+    [controlErrors]="errors"
+  ></cic-input>
+
+  <div class="btn-container">
+    <cic-button
+      label="Submit"
+      btnType="submit"
+      severity="danger"
+      styleClass="btn btn-primary"
+    ></cic-button>
+  </div>
+</form>

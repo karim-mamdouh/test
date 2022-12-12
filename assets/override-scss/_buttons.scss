@@ -1,3 +1,14 @@
-.btn-general {
-  background-color: red !important;
+.btn-primary {
+  background-color: #e7131a !important;
+  color: white !important;
+}
+
+.btn-secondary {
+  color: #e7131a !important;
+}
+
+.btn {
+  margin: 0 5px !important;
+  width: 108px;
+  height: 32px;
 }
